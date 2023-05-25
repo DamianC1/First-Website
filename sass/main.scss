@@ -1,4 +1,4 @@
-@import './colors';
+@import './_colors';
 @import './_components.scss';
 @import './_mixins.scss';
 
@@ -64,5 +64,33 @@ body {
 			width: 30%;
 			transition-delay: 0.1s;
 		}
+	}
+}
+.header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2em;
+	height: 75vh;
+	text-align: center;
+	color: $pure-white;
+	@include heroImages('../img/palm-L.jpg');
+	background-attachment: scroll;
+
+	&__heading {
+		font-family: 'Dancing script', cursive;
+		font-size: 4.8rem;
+		font-weight: 300;
+	}
+
+	&__text {
+		font-size: 1.4rem;
+	}
+	&__btn {
+		margin-top: 2em;
+		padding: 0.8em 1.6em;
+		background-color: $pure-white;
 	}
 }
