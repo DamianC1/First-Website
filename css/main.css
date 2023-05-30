@@ -55,6 +55,17 @@
           transform-origin: left;
 }
 
+.section-heading {
+  position: relative;
+  margin-bottom: 2em;
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1755e7;
+  letter-spacing: 2px;
+}
+
 *,
 *::before,
 *::after {
