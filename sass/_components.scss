@@ -57,6 +57,27 @@
 	letter-spacing: 2px;
 }
 
-.section-padding{
-	
+.section-padding {
+	padding: 6em 2em;
+}
+
+@media (min-width: 768px) {
+	.section-heading {
+		font-size: 3.6 rem;
+	}
+	.section-padding {
+		padding: 8em 2em;
+	}
+}
+.section-padding {
+	padding: 6em 2em;
+}
+
+@media (min-width: 992px) {
+	.section-heading {
+		font-size: 4.8 rem;
+	}
+	.section-padding {
+		padding: 10em 2em;
+	}
 }
