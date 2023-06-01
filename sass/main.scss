@@ -290,4 +290,15 @@ body {
 			font-size: 2.2rem;
 		}
 	}
+	.hero-img {
+		padding: 35rem 2em;
+		@include heroImages('../img/polynesia-L.jpg');
+		&__title {
+			font-size: 7.2rem;
+		}
+		hr {
+			width: 60%;
+			max-width: 900px;
+		}
+	}
 }
