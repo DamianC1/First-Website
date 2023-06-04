@@ -326,6 +326,25 @@ body {
   padding: 1em 0;
 }
 
+.islands__card {
+  position: relative;
+  margin: 1em 0;
+  height: 450px;
+  color: #fff;
+  text-align: center;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+.islands__card-img {
+  padding: 2em;
+  height: 100%;
+  border-radius: 8px;
+  background-size: cover;
+}
+.islands__card-img--first {
+  background-image: linear-gradient(45deg, rgba(8, 206, 255, 0.75), rgba(8, 24, 255, 0.75)), url(../img/boat-S.jpg);
+}
+
 @media (min-width: 576px) {
   .dreams__box {
     -webkit-box-orient: horizontal;
