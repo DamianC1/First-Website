@@ -298,6 +298,13 @@ body {
 		}
 	}
 }
+//OFFERS
+
+.offers {
+	position: absolute;
+	@include heroImages('../img/maldives-S.jpg'); //trzeba sprawdzić
+	overflow: hidden;
+}
 
 //=======================
 //MEDIA
