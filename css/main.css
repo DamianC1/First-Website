@@ -471,6 +471,14 @@ body {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+.offers__option-info {
+  padding: 2em;
+}
+.offers__option-heading {
+  margin-bottom: 0.5em;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
 
 @media (min-width: 576px) {
   .dreams__box {
