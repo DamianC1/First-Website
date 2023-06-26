@@ -402,6 +402,12 @@ body {
 	.white-block-left {
 		background-color: $dark;
 	}
+
+	&__form,
+	&__form-top {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 //=======================
