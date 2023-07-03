@@ -2,7 +2,7 @@ const nav = document.querySelector('.nav');
 const navBtn = document.querySelector('.burger-btn');
 const allNavItems = document.querySelectorAll('.nav__items');
 const navBtnBars = document.querySelector('.burger-btn__bars');
-const allSections = document.querySelector('.section');
+const allSections = document.querySelectorAll('.section');
 const footerYear = document.querySelector('.footer__year');
 
 const handleNav = () => {
@@ -26,5 +26,9 @@ const handleNavItemsAnimation = () => {
 		delayTime++;
 	});
 };
+
+const handleCurrentYear = () => {
+	const year = 
+}
 
 navBtn.addEventListener('click', handleNav);
