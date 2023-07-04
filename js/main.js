@@ -27,8 +27,13 @@ const handleNavItemsAnimation = () => {
 	});
 };
 
-const handleCurrentYear = () => {
-	const year = 
-}
+const handleObserver = () => {
+	const currentSection = window.scrollY;
+};
 
+const handleCurrentYear = () => {
+	const year = new Date().getFullYear();
+	footerYear.innerText = year;
+};
+handleCurrentYear();
 navBtn.addEventListener('click', handleNav);
