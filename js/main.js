@@ -29,6 +29,7 @@ const handleNavItemsAnimation = () => {
 
 const handleObserver = () => {
 	const currentSection = window.scrollY;
+	allSections.forEach(section =>{})
 };
 
 const handleCurrentYear = () => {
