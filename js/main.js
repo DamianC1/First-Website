@@ -29,11 +29,13 @@ const handleNavItemsAnimation = () => {
 
 const handleObserver = () => {
 	const currentSection = window.scrollY;
-	allSections.forEach(section =>{
-
-if(section.classList.contains('white-section') && section.offsetTop <= currentSection + 60)
-
-	})
+	allSections.forEach((section) => {
+		if (
+			section.classList.contains('white-section') &&
+			section.offsetTop <= currentSection + 60
+		)
+			navBtnBars.classList.add('black-bars-color');
+	});
 };
 
 const handleCurrentYear = () => {
