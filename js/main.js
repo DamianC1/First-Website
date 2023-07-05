@@ -29,7 +29,11 @@ const handleNavItemsAnimation = () => {
 
 const handleObserver = () => {
 	const currentSection = window.scrollY;
-	allSections.forEach(section =>{})
+	allSections.forEach(section =>{
+
+if(section.classList.contains('white-section') && section.offsetTop <= currentSection + 60)
+
+	})
 };
 
 const handleCurrentYear = () => {
