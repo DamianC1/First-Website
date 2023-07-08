@@ -33,8 +33,9 @@ const handleObserver = () => {
 		if (
 			section.classList.contains('white-section') &&
 			section.offsetTop <= currentSection + 60
-		)
+		) {
 			navBtnBars.classList.add('black-bars-color');
+		} else if (!section.classList.contains('white-section') && section.offsetTop <= currentSection + 60)
 	});
 };
 
