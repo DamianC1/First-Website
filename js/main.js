@@ -35,7 +35,12 @@ const handleObserver = () => {
 			section.offsetTop <= currentSection + 60
 		) {
 			navBtnBars.classList.add('black-bars-color');
-		} else if (!section.classList.contains('white-section') && section.offsetTop <= currentSection + 60)
+		} else if (
+			!section.classList.contains('white-section') &&
+			section.offsetTop <= currentSection + 60
+		) {
+			navBtnBars.classList.remove('black-bars-color');
+		}
 	});
 };
 
