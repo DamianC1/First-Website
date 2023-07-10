@@ -53,3 +53,4 @@ const handleCurrentYear = () => {
 handleCurrentYear();
 navBtn.addEventListener('click', handleNav);
 window.addEventListener('scroll', handleObserver);
+
