@@ -8,7 +8,7 @@ const footerYear = document.querySelector('.footer__year');
 const handleNav = () => {
 	nav.classList.toggle('nav--active');
 
-	navBtnBars.classList.remove('black-bars-colors');
+	navBtnBars.classList.remove('black-bars-color');
 
 	allNavItems.forEach((item) => {
 		allNavItems.addEventListener('click', () => {
